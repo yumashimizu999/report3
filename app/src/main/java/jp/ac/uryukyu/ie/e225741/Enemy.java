@@ -53,16 +53,23 @@ public class Enemy {
             System.out.printf("モンスター%sは倒れた。\n", name);
         }
     }
-
+    /**
+     * モンスターの名前を参照する参照するgetter
+     */
     public String getName(){
         return this.name;
     }
 
-
+    /**
+     * モンスターのHPを参照する参照するgetter
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }
 
+    /**
+     * モンスターの生死状態を参照する参照するgetter
+     */
     public boolean getDead(){
         return this.dead;
     }
